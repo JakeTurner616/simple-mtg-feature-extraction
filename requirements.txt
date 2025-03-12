@@ -1,0 +1,8 @@
+numpy
+opencv-python
+h5py
+faiss-cpu
+sqlite3
+matplotlib
+psycopg2
+dotenv
