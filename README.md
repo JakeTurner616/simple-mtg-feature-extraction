@@ -19,7 +19,7 @@ This is my attempt at a simplified feature extraction workflow for fast and accu
 # TODO
 
 - ~~GUI implementation for real-time identification using a simple YOLO segmentation model for ROI.~~
-- Download the 2.5~ GB of resources from a cloud source at runtime and use them. Create a release without Github LFS.
+- ~~Download the 2.5~ GB of resources from a cloud source at runtime and use them. Create a release without Github LFS.~~
 ## Citations
 
 This project is heavily built upon the research detailed in the thesis paper [*Magic: The Gathering Card Reader with Feature Detection* by Dakota Madden-Fong (2018)](https://github.com/TrifectaIII/MTG-Card-Reader/blob/master/Thesis%20Paper%20-%20MTG%20Card%20Reader.pdf), which significantly inspired the design and basis of this project.

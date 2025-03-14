@@ -11,3 +11,5 @@ resources/run/index_to_card.txt
 GUI/build
 GUI/dist
 GUI/__pycache__
+
+resources.zip

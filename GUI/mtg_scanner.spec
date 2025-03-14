@@ -17,11 +17,7 @@ a = Analysis(
     [os.path.join(project_root, 'GUI', 'main.py')],
     pathex=[project_root],
     binaries=[],
-    datas=[
-        # Bundle the entire resources folder. This will copy the folder into the bundle
-        # under a folder named "resources". At runtime, sys._MEIPASS/resources will be available.
-        (os.path.join(project_root, 'resources'), 'resources')
-    ],
+    datas=[],  # Removed the resources folder from the bundle.
     hiddenimports=hiddenimports,
     hookspath=[],
     runtime_hooks=[],
