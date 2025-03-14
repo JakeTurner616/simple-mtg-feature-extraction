@@ -6,3 +6,5 @@ sqlite3
 matplotlib
 psycopg2
 dotenv
+ultralytics
+pyinstaller

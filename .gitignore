@@ -1,3 +1,13 @@
 /images
 /run
 /venv
+
+resources/run/candidate_features.h5
+resources/run/card_database.db
+resources/run/faiss_ivf.index
+resources/run/index_to_card.txt
+
+
+GUI/build
+GUI/dist
+GUI/__pycache__
