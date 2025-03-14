@@ -6,6 +6,6 @@
 
 # Files location / How to aquire
 
-- files can be aquired in the releases page as a zipped file 'run.zip'. Storage requirements are >4GB
+- Pre trained files can be aquired for free via [kaggle](https://kaggle.com/datasets/15870d18aa824bb278497b1ddc51e1d6183e01211174eff852b1aa63089048d6) Storage requirements are 2.3 GB
 
-- files can also be aquired by running the workflow. Storage requirements are >120 GB. 
+- files can also be aquired by running the workflow. Storage requirements are >122 GB for all card scans + final files. 
