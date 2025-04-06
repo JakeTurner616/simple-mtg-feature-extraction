@@ -81,7 +81,7 @@ class DownloadModal(tk.Toplevel):
             self.after(100, self.check_progress)
     
     def download_thread(self):
-        url = "https://huggingface.co/datasets/JakeTurner616/mtg-cards-SIFT-Features/resolve/main/resources.zip?download=true"
+        url = "https://huggingface.co/datasets/JakeTurner616/mtg-cards-SIFT-Features/resolve/main/resourcesV3.zip?download=true"
         try:
             with urllib.request.urlopen(url) as response:
                 total_length = response.getheader('Content-Length')
