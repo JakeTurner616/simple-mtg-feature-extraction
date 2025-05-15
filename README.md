@@ -1,20 +1,17 @@
 # Simple MTG Feature Extraction
 
-![demo](docs/feature-detect.gif)
-
 ## Overview
 
-This is my attempt at a simplified feature extraction workflow for fast and accurate card identification at inference time. With this workflow, I set out to accomplish a few simple tasks:
+This is a MTG feature extration workflow targeting a production ready scope for fast deployment and a small footprint.
 
 ## Scope
-- Batch process all heavy operations – don't fill RAM.
-- Use optimized file formats and compression techniques for storing keypoints in high-dimensional space.
-- Use quantization and geometric verification for rejecting keypoint outliers.
+- Generate candidate_features.h5, faiss_ivf.index, and id_map.json
+- Do not require images to be downloaded to disk as a part of the feature extraction
 
 ## Rough Workflow Outline
 
-1. **Download Card Images**
-2. **Extract Features w/ SIFT and Store in HDF5**
+1. **Download Card Image to memory**
+2. **Extract Features w/ SIFT and Store in HDF5 as a batch**
 3. **Build FAISS Index**
 4. **Inference and Evaluate**
 

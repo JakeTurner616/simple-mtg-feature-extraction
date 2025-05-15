@@ -12,6 +12,5 @@ GUI/build
 GUI/dist
 GUI/__pycache__
 
-resources.zip
-resourcesV2.zip
-resourcesV3.zip
+*.zip
+resources/run/id_map.json
